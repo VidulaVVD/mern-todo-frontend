@@ -2,7 +2,7 @@ import axios from 'axios';
 
 import { ADDNEW_TODO, GETALL_TODO, TOGGLE_TODO, UPDATE_TODO, DELETE_TODO, TOGGLE_TAB } from './type';
 
-const API_URL = 'https://mern-app-8ll4.onrender.com';
+const API_URL = 'http://localhost:8080';
 
 export const addNewTodo = (data) => async (dispatch) => {
     try {
